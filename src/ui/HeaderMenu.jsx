@@ -3,7 +3,7 @@ import Logout from "../features/authentication/Logout";
 import { HiOutlineUser } from "react-icons/hi2";
 import ButtonIcon from "./ButtonIcon";
 import { useNavigate } from "react-router-dom";
-import DarkModeToggle from "./darkmodeToggle";
+import DarkModeToggle from "../DarkmodeToggle";
 
 const StyledHeaderMenu = styled.ul`
   display: flex;
